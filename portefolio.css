@@ -1,0 +1,178 @@
+
+nav{
+display: flex;
+justify-content: space-between;
+position: sticky 0;
+align-items: center;
+top: 0%;
+margin-bottom:1vh ;
+
+}
+
+
+
+.photo img{
+
+ width: 90px; 
+border-radius: 20%;
+display: flex;
+ margin-top: 2vh;
+margin-left: 10vh;
+
+}
+
+ul {
+list-style:none ;
+color: antiquewhite;
+display: flex;
+gap: 3rem;
+margin-left: 80vh;
+font-size: 25px;
+}
+
+li a {
+text-decoration: none;
+color: rgb(14, 3, 84);
+background-color: #e8e8d9;
+
+}
+ a:hover{
+background-color: red;
+
+}
+
+header{
+position: sticky;
+background-color: rgb(236, 235, 225);
+border-radius:10%;
+margin-left: 50px ;
+display: flex;
+height:30vh;
+justify-content: space-between;
+}
+
+
+.ACCEUIL{
+display: flex;
+position: relative;
+align-items: center;
+margin-left: 50vh ;
+}
+
+body{
+width: 200vh;
+height: 200vh;
+background: url(monlogo.jpeg);
+background-size: cover ;
+background-attachment: fixed;
+z-index: index -100 ;
+border-radius:10%;
+position:relative;
+margin:20px;
+
+}
+
+
+.mescompétence{
+    text-align: left;
+vertical-align: middle;
+margin-left:50vh ;
+color: aquamarine;
+
+}
+
+footer{
+padding: 5vh;
+background-color: rgb(231, 231, 219);
+width: 215vh;
+margin-left: -1vh;
+height: 20vh;
+top: 20vh;
+}
+
+
+footer h3{
+    position: sticky;
+    top: 0;
+}
+
+h1{
+color:rgb(241, 241, 225) ;
+margin-left: 20vh ;
+font-size: 50px ;
+
+}
+
+h2{
+color: rgb(250, 252, 252);
+font-size: 70px;
+}
+.page {
+color: rgb(237, 232, 188);
+font-size: 50px;
+}
+ol{ 
+color: white;
+font-size: 40px;
+
+}
+.texteprojet{
+font-size: 40px;
+color: white;
+
+}
+.cm{
+color: rgb(19, 3, 54);
+margin-left: 10vh;
+margin-top: 10vh;
+}
+ 
+.resaux{
+color: blue;
+width:90px ;
+
+}
+
+.fin {
+display: flex;
+justify-content: center;
+margin-top:50vh ;
+}
+
+.fin i{
+padding: 10px;
+background-color: aqua;
+border-radius: 50%;
+margin: top -10px;
+justify-content: space-between;
+
+}
+h3{
+margin-left: 20vh;
+
+}
+#copy{
+font: size 20px; ;
+color: rgb(25, 3, 38);
+}
+
+fieldset{
+width: 50px;
+height:50vh ;
+position: relative;
+border-radius:20% ;
+background-color: rgb(197, 197, 31);
+}
+
+form{
+width: 50vh;
+height: 10vh;
+text-align: center;
+
+top: 50vh;
+}
+
+input{
+border-radius:20%;
+
+}
